@@ -1,0 +1,22 @@
+React Router for Navigation
+In this lesson, we will learn about React Router, a powerful library that allows you to manage navigation and routing in your React applications. React Router helps create a single-page application (SPA) with multiple views, while keeping the URL in sync with the components being rendered.
+
+What is React Router?
+React Router is a routing library for React that enables you to:
+
+Define different routes for your app.
+Display different components based on the current URL.
+Navigate between views without reloading the page.
+Why Use React Router?
+Single Page Application (SPA): Helps create dynamic, client-side routing where only the required components are re-rendered instead of reloading the entire page.
+URL-based Routing: Keeps the browser's URL in sync with the views, making your app more intuitive and shareable via links.
+Nested Routes: Supports nested views for complex page structures, such as a dashboard with different sections.
+Installing React Router
+To use React Router, you need to install the react-router-dom package in your project:
+
+
+npm install react-router-dom
+
+For TypeScript, you'll also need the types:
+
+npm install @types/react-router-dom
